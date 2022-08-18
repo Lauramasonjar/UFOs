@@ -41,7 +41,7 @@ Here filter input box is suggesting end-user that, how search criteria should be
 When user types of criteria in multi-filter and then press enter then table displays only rows that matches the user input. From the picture below we can see only data that has been filtered based on the user input – that is -- *State: ca, Shape: triangle and Date: 1/1/2010*.
 
 
-IMAGE of data table here
+![UFOs](https://github.com/Lauramasonjar/UFOs/blob/main/images/filter_output.png)
 
 # 
 To resetting the filter, there are two options. User can either clear input manually by deleting input cell by cell or click the refresh link *UFO Sightings* that can be found at the top left corner of the page. After the filter is cleared, the user can use filter again.
