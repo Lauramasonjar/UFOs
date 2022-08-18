@@ -14,7 +14,7 @@ The webpage contains the following:
 -   An attention-grabbing header with a refresh page link.
 -   Visually appealing design of overall presentation of the data.
 
-IMAGE of page header here
+![UFOs](https://github.com/Lauramasonjar/UFOs/blob/main/images/website_header.png)
 
 ## Background 
 For this project we are using **JavaScript** as the primary coding language. JavaScript (JS) is a scripting language, primarily used on the Web. It is used to enhance HTML pages and is commonly found embedded in HTML code. JavaScript is an interpreted language. Thus, it doesn't need to be compiled. JavaScript renders web pages in an interactive and dynamic fashion.
@@ -35,7 +35,7 @@ For this project we are using **JavaScript** as the primary coding language. Jav
 The raw data from JavaScript array is going displayed in a dynamic table where end-users can filter the data on multiple criteria such as **date**, **city**, **state**, **country** and **shape** of UFOs sightings. 
 Here filter input box is suggesting end-user that, how search criteria should be entered with using text value in it. For example, date should be entered in format as in 1/10/2010 – with forward slashes and without extra 0 before day and month. City, state, and country should be entered in lower case.
 
-IMAGE of filter box here
+![UFOs](https://github.com/Lauramasonjar/UFOs/blob/main/images/filter_boxes.png)
 
 #
 When user types of criteria in multi-filter and then press enter then table displays only rows that matches the user input. From the picture below we can see only data that has been filtered based on the user input – that is -- *State: ca, Shape: triangle and Date: 1/1/2010*.
@@ -46,7 +46,7 @@ IMAGE of data table here
 # 
 To resetting the filter, there are two options. User can either clear input manually by deleting input cell by cell or click the refresh link *UFO Sightings* that can be found at the top left corner of the page. After the filter is cleared, the user can use filter again.
 
-IMAGE UFO sighting here
+![UFOs](https://github.com/Lauramasonjar/UFOs/blob/main/images/refresh_button.png)
 
 ## Summary
 
