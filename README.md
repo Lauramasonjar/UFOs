@@ -1,11 +1,11 @@
 # UFOs
 
 ## Overview of Project
-We need to build a **dynamic webpage** that displays UFOs sightings information for upcoming annual gathering of UFO enthusiasts in McMinnville, Oregon.
+We need to build a **dynamic webpage** that displays UFO sighting information for the upcoming annual gathering of UFO enthusiasts in McMinnville, Oregon.
 
 ## Purpose
 
- The purpose of this project is to display data by adding filters to the table which let users to refine their search on more than one level.  
+ The purpose of this project is to display data by adding filters to the table which lets users refine their search on more than one level.  
 
 ## Requirements
 The webpage contains the following:
@@ -21,10 +21,10 @@ For this project we are using **JavaScript** as the primary coding language. Jav
 
 ## Resources
 
-- **Data Source:** JavaScript list [data.js](static/js/data.js)
+- **Data Source:** JavaScript list [data.js](js/data.js)
 - **Software:** VS Code and Chrome Developer Tools.
 - **Languages:** JavaScript, HTML, CSS and Bootstrap 3
-  - The table is built by inserting **JavaScript** into HTML page. [app.js]( static/js/app.js).
+  - The table is built by inserting **JavaScript** into HTML page. [app.js](js/app.js).
   - **HTML** to build the webpage [index.html](index.html).
   - **CSS** and **Bootstrap** to build and style the page [style.css](static/css/style.css)
   - **Chrome Developer Tools** to test the code.
@@ -32,19 +32,18 @@ For this project we are using **JavaScript** as the primary coding language. Jav
 
 ## Results
 
-The raw data from JavaScript array is going displayed in a dynamic table where end-users can filter the data on multiple criteria such as **date**, **city**, **state**, **country** and **shape** of UFOs sightings. 
-Here filter input box is suggesting end-user that, how search criteria should be entered with using text value in it. For example, date should be entered in format as in 1/10/2010 – with forward slashes and without extra 0 before day and month. City, state, and country should be entered in lower case.
+The raw data from the JavaScript array is displayed in a dynamic table where end-users can filter the data on multiple criteria such as **date**, **city**, **state**, **country** and **shape** of UFO sightings. 
+The filter input box is suggesting to the end-user how search criteria should be entered by using text values in it. For example, date should be entered in format as in 1/10/2010 – with forward slashes and without the extra 0 before day and month. City, state, and country should be entered in lower case.
 
 ![UFOs](https://github.com/Lauramasonjar/UFOs/blob/main/images/filter_boxes.png)
 
 #
-When user types of criteria in multi-filter and then press enter then table displays only rows that matches the user input. From the picture below we can see only data that has been filtered based on the user input – that is -- *State: ca, Shape: triangle and Date: 1/1/2010*.
-
+When the user types the criteria in the multi-filter cells and then presses enter the table displays only rows that match the user input. From the picture below we can see only data that has been filtered based on the user input.
 
 ![UFOs](https://github.com/Lauramasonjar/UFOs/blob/main/images/filter_output.png)
 
 # 
-To resetting the filter, there are two options. User can either clear input manually by deleting input cell by cell or click the refresh link *UFO Sightings* that can be found at the top left corner of the page. After the filter is cleared, the user can use filter again.
+To reset the filter, there are two options: 1) The user can either clear input manually by deleting the input cell by cell or 2) the user can click the refresh link *UFO Sightings* that can be found at the top left corner of the page. After the filter is cleared, the user can use the filter cells again.
 
 ![UFOs](https://github.com/Lauramasonjar/UFOs/blob/main/images/refresh_button.png)
 
@@ -52,18 +51,18 @@ To resetting the filter, there are two options. User can either clear input manu
 
 This webpage does give a great overview of UFO sightings in the US, but it does have a few shortcomings. 
 
-- Instead of "UFO Sightings" reset link, we can add some functions which will reset page automatically. Also provide some "TOP" and "BOTTOM" functions to scroll page up and down to make it user friendly.
+- Instead of "UFO Sightings" reset link, we can add some functions which will reset the page automatically. It could also provide some "TOP" and "BOTTOM" functions to scroll the page up and down to make it more user friendly as the table displays larger amounts of data.
 
 - It does not have the functionality to add live data. 
 
-- The data that is a part of the "data file" will stay the same unless and until someone change it.
+- The data that is a part of the "data file" will stay the same unless and until someone changes it.
 
 
 ### Recommendations for further analysis
 
 - **Input data.** 
-  - By Adding a code that will convert all letters to lower case from user input. For example, no matter which format user used to type “CA” or “Ca” instead of “ca”, the code will still be able to process and find the results.
-  -  Also we can add some functinality that will change the user input to exact keys which will match the data. For example, if user type "st.louis" then it will automatically changed it to St.Louis or "mo" to "MO".
+  - By Adding code that will convert all letters to lower case from user input. For example, no matter which format the user used to type “CA” or “Ca” instead of “ca”, the code will still be able to process and find the results.
+  -  We could also add some functinality that will change the user input to exact keys which will match the data. For example, if the user types "st.louis" then it will automatically change it to St.Louis or "mo" to "MO".
 
-- **Adding drop down-menu from the filter.**
-  -  Also we can add drop-down menu to the filters for the ease instead of guessing and exploring the options.
+- **Adding a drop down-menu from the filter.**
+  -  We could add a drop-down menu to the filters for faster selections instead of guessing and exploring the options.
